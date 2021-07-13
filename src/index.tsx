@@ -1,9 +1,10 @@
 import { NativeModules } from 'react-native';
+import StreamAxiaView from './StreamAxiaViewModule';
 
-type StreamaxiaType = {
-  multiply(a: number, b: number): Promise<number>;
-};
+const {
+  Streamaxia
+} = NativeModules;
+module.exports = { StreamAxiaView };
 
-const { Streamaxia } = NativeModules;
-
-export default Streamaxia as StreamaxiaType;
+//export default Streamaxia;
+//# sourceMappingURL=index.js.map
