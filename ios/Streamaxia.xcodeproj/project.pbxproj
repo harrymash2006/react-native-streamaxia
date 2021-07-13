@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		56F631A4269DC0A2006ADD68 /* StreamaxiaSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F631A3269DC0A2006ADD68 /* StreamaxiaSDK.xcframework */; platformFilter = ios; };
-		56F631A7269DC2FC006ADD68 /* RNStreamaxiaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F631A6269DC2FC006ADD68 /* RNStreamaxiaManager.swift */; };
 		F4FF95D7245B92E800C19C63 /* Streamaxia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* Streamaxia.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libStreamaxia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStreamaxia.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F631A3269DC0A2006ADD68 /* StreamaxiaSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StreamaxiaSDK.xcframework; path = "../../../../Downloads/iOS-Open-SDK-master/Streamaxia Open SDK Demo/Swift/Frameworks/StreamaxiaSDK.xcframework"; sourceTree = "<group>"; };
-		56F631A6269DC2FC006ADD68 /* RNStreamaxiaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNStreamaxiaManager.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* Streamaxia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Streamaxia.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* Streamaxia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Streamaxia-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* Streamaxia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streamaxia.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				56F631A6269DC2FC006ADD68 /* RNStreamaxiaManager.swift */,
 				F4FF95D6245B92E800C19C63 /* Streamaxia.swift */,
 				B3E7B5891CC2AC0600A0062D /* Streamaxia.m */,
 				F4FF95D5245B92E700C19C63 /* Streamaxia-Bridging-Header.h */,
@@ -130,7 +127,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F631A7269DC2FC006ADD68 /* RNStreamaxiaManager.swift in Sources */,
 				F4FF95D7245B92E800C19C63 /* Streamaxia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
